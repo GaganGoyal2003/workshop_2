@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.p{
+
+    font-size: 32;
+    text-align: center;
+}
+a{
+    padding-top: 2%;
+    color: black;
+font-size: large;
+margin-left: 30;
+margin-top: 30;
+}
+body{
+    
+    background: url("https://img.freepik.com/free-photo/pink-yellow-plain-background_53876-98329.jpg?w=2000");
+background-size: cover;
+
+}
+.back{
+     margin-left:30% ;
+}
+#hehe{
+    padding-bottom: 1%;
+}
+.hi{ font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 40;
+    margin-left: 25%;
+    margin-top: 10%;
+    
+}
+.img_2{
+    height:30%;
+    width:30%;
+    
+}
+#no_back{text-align: center;
+    font-size:30 ;
+    padding-top: 1%;
+    background:url("https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg");
+    background-size: cover;
+    padding-bottom: 2%;
+}
+
+.img_1{
+    float: right;
+    margin-right: 20%;
+    height: 25%;
+    width: 20%;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 3px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column_1 {
+    float: left;
+    width: 30%;
+    margin-left:2.5% ;
+  }
+  
+  /* Clear floats after image containers */
+  .row_1::after {
+    
+    content: "";
+    clear: both;
+    display: table;
+  }
+#yeye{
+    padding-top: 1%;
+}
+#Register{
+    background:url("https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg");
+    background-size: cover;
+}
+.container {
+    padding: 16px;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit/register button */
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+  
+  /* Add a blue text color to links */
+ .formm{
+    margin-left: 0%;
+ }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
